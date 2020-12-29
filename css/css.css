@@ -37,8 +37,8 @@ body {
 }
 
 .smenu{
-    width: 169px;
-    height: 69px;
+    width: 12vmax;
+    height: 5vmax;
     background-color: black;
     display: flex;
     justify-content: center;
