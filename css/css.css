@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    color: honeydew;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    /* background-image: url(../images/espacio.jpg);*/
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logoynav{
+    background-image: linear-gradient(rgb(47, 0, 100), rgb(47, 0, 100, 0));
+    border: 0 auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-color: black;
+    border: solid black 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smenu{
+    width: 169px;
+    height: 69px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a:visited {
+    color: white ;
+}
+
+main {
+    text-align: center;
+    color: cornsilk;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+
+.menu {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+        width: auto;
+    }
+
+    to {
+    margin-left: 0%;
+    width: auto;
+    }
+}
+
+
+--------------------------
+
+
+-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+body{
+    background-image: url("../images/espacio.jpg");
+}
+
+.logoynav img{
+    width: 169px;
+    height: 69px;
+    background-color: black;
+}
+
+.menu{
+    margin: 0 auto;
+    width: 700px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.smenu{
+    align-items: flex-end;
+    width: 100px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+main{
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+a:visited { color: white
+}
+.logoynav{
+    margin: 0 auto;
+    border: solid 5px green;
+} */
