@@ -34,12 +34,40 @@ header {
 }
 
 .logoynav {
+    display: flex;
+    max-width: 20%;
+    min-width: 120px;
+    flex-direction: row;
+    flex-wrap: wrap;
     border-right: solid green 2px;
+    background-color: lightpink;
+    text-align: center;
+    align-items: stretch;
 }
 
 .smenu {
+    margin: 0;
+    padding: .5rem 1rem;
+    width: 100%;
     border-bottom: green solid 2px;
 }
+
+.smenu.imgspoty {
+    padding: 0;
+}
+
+.smenu.imgspoty img {
+    width: 100%;
+}
+
+.smenu:last-child {
+    border: transparent;
+}
+
+.smenu:hover {
+    background-color: rgba(0,150,0,.2);
+}
+
 
 footer {
     position: fixed;
@@ -50,8 +78,6 @@ footer {
     color:cornsilk;
     font-size: 30px;
 }
-
-
 
 
 
