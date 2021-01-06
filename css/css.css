@@ -9,6 +9,7 @@ body {
     background-color: black;
     color:rgb(104, 95, 81);
     min-height: 100vh;
+    background-repeat: no-repeat;
     background-image: linear-gradient(
         to bottom,
         rgb(90, 0, 90) 0%,
@@ -18,9 +19,10 @@ body {
     );
 }
 
+
+
 header {
     text-align: center;
-    height: 70px;
     color:cornsilk;
     font-size: 30px;
 }
@@ -81,3 +83,26 @@ footer {
 
 
 
+@media screen and (max-width: 600px) {
+    body {
+        background-image: linear-gradient(
+            /* #0e8fb9 */
+            to bottom,
+            #0e8fb9 0%,
+            rgba(90, 0, 90, 0.10) 15%,
+            rgba(90, 0, 90, 0.10) 85%,
+            #0e8fb9 100%
+        );
+
+    }
+
+    .tbody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .logoynav {
+        max-width: 100%;
+    }
+}
