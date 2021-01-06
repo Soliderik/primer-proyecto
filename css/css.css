@@ -1,161 +1,58 @@
 * {
     margin: 0;
     padding: 0;
-    
-}
-
-header{
-    color: honeydew;
-    font-size: 30px;
-    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
-    /* background-image: url(../images/espacio.jpg);*/
+    border: 2px solid red;
     background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color:rgb(104, 95, 81);
+    min-height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(90, 0, 90) 0%,
+        rgba(90, 0, 90, 0.10) 15%,
+        rgba(90, 0, 90, 0.10) 85%,
+        rgb(90, 0, 90) 100%
+    );
 }
 
-
-.logoynav{
-    background-image: linear-gradient(rgb(47, 0, 100), rgb(47, 0, 100, 0));
-    border: 0 auto;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.menu{
-    background-color: black;
-    border: solid black 2px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.smenu{
-    width: 12vmax;
-    height: 5vmax;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-a:visited {
-    color: white ;
-}
-
-main {
+header {
     text-align: center;
-    color: cornsilk;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    padding: 30px 0px;
-}
-
-.menu {
-    animation-duration: 3s;
-    animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-        margin-right: 100%;
-        width: auto;
-    }
-
-    to {
-    margin-left: 0%;
-    width: auto;
-    }
-}
-
-
---------------------------
-
-
--------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* header{
-    text-align: center;
-    font-family: cursive;
+    height: 70px;
+    color:cornsilk;
     font-size: 30px;
 }
 
-body{
-    background-image: url("../images/espacio.jpg");
-}
-
-.logoynav img{
-    width: 169px;
-    height: 69px;
-    background-color: black;
-}
-
-.menu{
+.tbody {
+    display:flex;
+    border: green solid 2px;
+    border-radius: 5px;
     margin: 0 auto;
-    width: 700px;
-    background-color: green;
-    display: flex;
-    justify-content: center;
+    max-width: 600px;
 }
 
-.smenu{
-    align-items: flex-end;
-    width: 100px;
-    text-align:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-
+.logoynav {
+    border-right: solid green 2px;
 }
 
-main{
-    margin: 0 auto;
+.smenu {
+    border-bottom: green solid 2px;
+}
+
+footer {
+    position: fixed;
+    height: 70px;
     text-align: center;
-    color: red;
+    width: 100%;
+    bottom: 0;
+    color:cornsilk;
+    font-size: 30px;
 }
 
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    padding: 30px 0px;
-}
-a:visited { color: white
-}
-.logoynav{
-    margin: 0 auto;
-    border: solid 5px green;
-} */
+
+
+
+
